@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class Controller1 {
 	@RequestMapping("/www")
 	public String test() {
-		return "www1w1";
+		return "u觉得胡";
 	}
 }
