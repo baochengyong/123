@@ -28,7 +28,8 @@ public class Test1 {
 	
 	@Test
 	public void test() {
-		testServiceImp.getName();
+		//testServiceImp.getName();
+		int i = 1/0;
 	}
 	
 	@Test

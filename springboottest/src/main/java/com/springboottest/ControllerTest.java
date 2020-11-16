@@ -20,6 +20,7 @@ public class ControllerTest {
 	
 	@RequestMapping("/test")
 	public String test() {
+		int i = 1/0;
 		testService.getName();
 		return "测试！";
 	}
