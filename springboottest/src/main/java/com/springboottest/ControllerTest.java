@@ -22,7 +22,7 @@ public class ControllerTest {
 	public String test() {
 		int i = 1/0;
 		testService.getName();
-		return "测试！";
+		return "测试！2";
 	}
 	@RequestMapping("/dbtest")
 	public String dbtest() {
