@@ -1,4 +1,6 @@
 server:
+  servlet:
+    context-path: /springboottest
   # 服务http端口
   port: 8080
   # tomcat配置
