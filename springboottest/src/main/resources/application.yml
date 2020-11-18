@@ -1,3 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.65.128
+    port: 6379
+
 server:
   servlet:
     context-path: /springboottest
@@ -14,12 +25,4 @@ server:
     # 最大链接数
     max-connections: 1000
     #链接建立超时时间
-  connection-timeout: 10000
-
-spring:
-  datasource:
-    username: root
-    password: root
-    url: jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver  
+  connection-timeout: 10000      
