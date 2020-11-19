@@ -62,3 +62,4 @@ public class ControllerTest {
 		return	(String)redisTemplate.opsForValue().get("key");
 	}
 }
+
